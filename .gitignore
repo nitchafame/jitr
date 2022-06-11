@@ -1,0 +1,14 @@
+/extras
+.DS_Store
+/sandbox
+/_bu
+/packages
+/node_modules
+/cocoding-server/node_modules
+/cocoding-server/package-lock.json
+/package-lock.json
+/lib
+/electronjs
+/_stats
+/_backups
+

@@ -1,0 +1,40 @@
+{
+  "name": "cocoding-server",
+  "version": "1.3.4",
+  "description": "Collaborative live-coding websocket server for P5LIVE",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url_comment": "git+ssh://git@github.com/ffd8/p5live.git"
+  },
+  "keywords": [
+    "live-coding",
+    "creative-coding",
+    "p5js",
+    "visuals",
+    "CRDT",
+    "RGA",
+    "Ace",
+    "Collaborative",
+    "P5LIVE"
+  ],
+  "author": "Ted Davis",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/ffd8/p5live/issues"
+  },
+  "homepage": "https://github.com/ffd8/p5live/",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.1",
+    "pem": "^1.14.4",
+    "socket.io": "^2.3.0"
+  }
+}
